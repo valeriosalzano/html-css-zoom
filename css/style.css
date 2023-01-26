@@ -120,3 +120,6 @@ footer .btn:hover .icon{
     margin-right: 0;
     font-size: 15px;
 }
+#end-meeting.btn:hover{
+    box-shadow: 0 0 10px 1px rgba(255, 255, 255, 0.4) inset;
+}
