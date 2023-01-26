@@ -23,25 +23,25 @@ header{
     top: 0;
     left: 0;
     background-color: rgba(0,0,0,0.8);
+    z-index: 9;
 }
 header .btn {
     background-color: gray;
     color: white;
     padding: 5px;
     border-radius: 5px;
-    margin: 5px;
+    margin: 10px 5px;
     border: transparent;
-    font-size: 15px;
+    font-size: 14px;
   }
 header .btn:hover{
     background-color: darkgray;
 }
 /* main */
-
 main .cols{
     margin: auto;
     height: 100vh;
-    padding: 75px 0 105px;
+    padding: 60px 0 90px;
     flex-wrap: wrap;
     justify-content: center;
     overflow-y: scroll;
@@ -66,4 +66,53 @@ main .cols{
 }
 .col .user-name{
     margin-left: 5px;
+}
+/* footer */
+footer{
+    background-color: #222222;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    z-index: 9;
+}
+.footer-btns{
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+footer .btn{
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 25px;
+    padding: 5px;
+    margin: 0 5px;
+}
+footer .btn:hover .icon{
+    color: #4BC800;
+}
+.footer-btns .icon-name{
+    margin-top: 5px;
+    font-size: 12px;
+}
+.arrow.btn{
+    font-size: 12px;
+    position: relative;
+    bottom: 18px;
+    margin: 0;
+}
+.footer-btns .left-btns{
+    margin-left: 0;
+    min-width: 130px;
+}
+#end-meeting.btn{
+    height: 100%;
+    background-color: #4A4A4A;
+    color: red;
+    padding: 0 10px;
+    margin-right: 0;
+    font-size: 20px;
 }
